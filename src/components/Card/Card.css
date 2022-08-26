@@ -1,0 +1,120 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Container1 {
+    
+flex-basis: 80%;
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    background-color: white;
+    /* background-color: yellow; */
+    width: 100%;
+    padding: 10px;
+}
+
+.CardHeading {
+    text-align: center;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 10px 10px;
+    font-size: 15px;
+}
+
+.card {
+    width: 325px;
+    height: 325px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-left: 0.1px solid rgba(0, 0, 0, 0.5);
+    border-top: 0.1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    scale: (1.1);
+    background-color: rgba(250, 250, 250, 0.9);
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    padding: 0 10px;
+    background-color: rgba(250, 250, 250, 0.9);
+    border-radius: 0 0 10px 10px;
+
+
+}
+
+.itemName {
+    letter-spacing: 1px;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+
+
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width:800px) {
+    .Container {
+        flex-direction: column;
+    }
+
+    .cardContainer {
+        justify-content: center;
+    }
+
+    .CardHeading {
+        width: 100%;
+        justify-content: flex-start;
+
+    }
+
+    .CardHeading h1{
+        border-bottom: 1px solid #333;
+    }
+}

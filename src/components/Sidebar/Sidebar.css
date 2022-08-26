@@ -1,0 +1,81 @@
+.sideBar {
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+
+    flex-direction: column;
+    height: 100vh;
+    flex-basis: 25%;
+    padding: 20px;
+
+}
+
+ul li {
+    font-size: 20px;
+    margin: 10px;
+    list-style: none;
+    padding: 15px 0;
+    padding-left: 5px;
+    transition: all 0.4s;
+}
+
+.active {
+    border-left: 5px solid black;
+    background-color: rgb(218, 215, 211);
+}
+
+ul li:hover {
+    background-color: rgb(218, 215, 211);
+    border-left: 5px solid black;
+
+}
+
+
+.sCategories h1 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 60px 10px 10px 10px;
+    border-bottom: 0.1px solid #333;
+
+}
+
+.ads {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rebeccapurple;
+    background-color: rgb(9, 23, 71);
+}
+
+.ads h2{
+    font-size: 18px;
+    margin: 5px 0;
+    color: white;
+}
+
+.ads h3{
+    color: white;
+    margin-bottom: 10px;
+
+
+
+}
+
+.ads span{
+    font-size: 35px;
+}
+
+.knowMore{
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: none rgb(215, 223, 35);
+    border: 1px none rgb(127, 149, 235);
+}

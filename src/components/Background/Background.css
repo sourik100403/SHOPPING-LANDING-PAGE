@@ -1,0 +1,96 @@
+.backgroundContainer {
+    width: 100%;
+    background: url('https://ik.imagekit.io/faskf16pg/Branding/Trekking_Gear__kGj8hCvba.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656328195702');
+    z-index: 2;
+    /* order: 3; */
+    height: max-content;
+    flex-shrink: 0;
+    justify-content: center;
+    overflow: visible;
+    border-radius: 0px;
+    /* transition: max-height 1000ms ease-out 0s; */
+    background-color: rgb(9, 23, 71);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial; */
+    align-self: center;
+    min-width: 0px;
+    min-height: 350px;
+    flex-grow: 0;
+    width: calc(100% - 0px);
+    position: relative;
+    /* margin: 70px 0px 0px; */
+}
+
+.strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-self: center;
+    min-width: 0px;
+    order: 5;
+    min-height: 50px;
+    max-height: 50px;
+    height: 50px;
+    flex-grow: 1;
+    width: calc(100% - 0px);
+    margin: 0px;
+    justify-content: center;
+    overflow: visible;
+    background-color: rgb(9, 23, 71);
+    border-radius: 0px;
+    color: white;
+}
+
+.strip p {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stripBtn {
+    cursor: pointer;
+    font-weight: inherit;
+    border: none;
+    color: rgb(170, 159, 159);
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.91);
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.yBtn {
+    background: none rgb(215, 223, 35);
+    color: black;
+}
+
+
+
+@media(max-width:800px) {
+    .stripBtn {
+        font-size: 5px;
+        padding: 5px 10px;
+        margin: 0 5px;
+        font-weight: bold;
+
+    }
+
+    .strip p {
+        font-size: 10px;
+    }
+}
